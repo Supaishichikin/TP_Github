@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panier</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        /* Add this style to your existing CSS or in a separate stylesheet */
+        .content-list {
+            display: flex;
+            justify-content: space-between; /* Adjust as needed, you can also use 'space-around' or 'space-evenly' */
+            align-items: center; /* Align items vertically in the center */
+            flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+        }
+
+        .item-box {
+            width: 200px; /* Set a fixed width for each item box */
+            margin-bottom: 20px; /* Add some space between items */
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <span><a href="./panier.html">Panier</a></span>
+            <span><a href="./index.html">Home</a></span>
+            <span><a href="./list.html">List</a></span>
+        </nav>
+        <div class="content">
+            <h1>Panier</h1>
+            <div class="content-list">
+                <!-- Your cart items go here -->
+                <div class="item-box">
+                    <img src="https://picsum.photos/200/200" alt="item">
+                    <div class="item-text-container">
+                        <span>20$</span>
+                    </div>
+                </div>
+
+                <div class="item-box">
+                    <img src="https://picsum.photos/200/200" alt="item">
+                    <div class="item-text-container">
+                        <span>30$</span>
+                    </div>
+                </div>
+
+                <div class="item-box">
+                    <img src="https://picsum.photos/200/200" alt="item">
+                    <div class="item-text-container">
+                        <span>25$</span>
+                    </div>
+                </div>
+
+                <div class="item-box">
+                    <img src="https://picsum.photos/200/200" alt="item">
+                    <div class="item-text-container">
+                        <span>15$</span>
+                    </div>
+                </div>
+
+                <!-- Total Price -->
+                <div class="total-price">
+                    <span>Total: $2000s</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
